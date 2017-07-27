@@ -6,7 +6,7 @@ Prosty kalkulator liczący medyczny wskaźnik DAS28.
 > oceniająca aktywność stanu zapalnego w stawach. Posługuje się nią lekarz reumatolog, który wie jak 
 > badać i uciskać poszczególne stawy.
 
-Prawidłowość wyników można sprawdzić [tutaj](http://www.mp.pl/gabinet/das28.php "Kalkulator DAS28") lub [tutaj](https://www.termedia.pl/reumatologia/Kalkulatory/DAS/ "Kalkulator DAS28")
+Prawidłowość wyników można sprawdzić [tutaj](http://www.mp.pl/gabinet/das28.php "Kalkulator DAS28") lub [tutaj](https://www.termedia.pl/reumatologia/Kalkulatory/DAS/ "Kalkulator DAS28").
 
 #### JAK URUCHOMIĆ
 
