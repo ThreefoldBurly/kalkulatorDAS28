@@ -1,4 +1,4 @@
-package main;
+package kalkulatorDAS28.main;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import lib.FontConstants;
+import kalkulatorDAS28.lib.FontConstants;
 
 public class DataBox extends Box {
 	private static final long serialVersionUID = -1322876446530464627L;
@@ -21,10 +21,10 @@ public class DataBox extends Box {
 		super(BoxLayout.Y_AXIS);
 		this.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-		QuestionPanel one = new QuestionPanel("Podaj liczb?bolesnych staw? u Pacjenta: ", 28);
-		QuestionPanel two = new QuestionPanel("Podaj liczb?staw? z obrz?iem u Pacjenta: ", 28);
-		QuestionPanel three = new QuestionPanel("Podaj ocen?aktywno?ci choroby wg Pacjenta: ", 100, 50);
-		QuestionPanel four = new QuestionPanel("Podaj wysoko??wska?nika OB lub CRP: ");
+		QuestionPanel one = new QuestionPanel("Podaj liczbę bolesnych stawów u Pacjenta: ", 28);
+		QuestionPanel two = new QuestionPanel("Podaj liczbę stawów z obrzękiem u Pacjenta: ", 28);
+		QuestionPanel three = new QuestionPanel("Podaj ocenę aktywności choroby wg Pacjenta: ", 100, 50);
+		QuestionPanel four = new QuestionPanel("Podaj wysokość wskaźnika OB lub CRP: ");
 
 		firstField = one.getField();
 		secondField = two.getField();
@@ -54,7 +54,7 @@ public class DataBox extends Box {
 		JPanel answerPanel = new JPanel(new BorderLayout());
 
 		JPanel panel = new JPanel();
-		JLabel answerLabel = new JLabel("Wska?nik DAS28 dla tego Pacjenta wynosi: ");
+		JLabel answerLabel = new JLabel("Wskaźnik DAS28 dla tego Pacjenta wynosi: ");
 		calculateButton = new JButton("Oblicz");
 		calculateButton.setFont(FontConstants.MEDIUM_FONT_BOLD);
 		calculateButton.addActionListener(new CalculateButtonListener());

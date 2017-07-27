@@ -1,4 +1,4 @@
-package main;
+package kalkulatorDAS28.main;
 
 import java.math.BigDecimal;
 

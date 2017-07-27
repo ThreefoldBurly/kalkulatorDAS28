@@ -1,9 +1,9 @@
-package main;
+package kalkulatorDAS28.main;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-import lib.MyGUI;
+import kalkulatorDAS28.lib.MyGUI;
 
 class Launcher {
 

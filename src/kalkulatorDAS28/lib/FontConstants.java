@@ -1,4 +1,4 @@
-package lib;
+package kalkulatorDAS28.lib;
 
 import java.awt.Font;
 

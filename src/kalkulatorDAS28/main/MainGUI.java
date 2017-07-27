@@ -1,4 +1,4 @@
-package main;
+package kalkulatorDAS28.main;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import lib.MyGUI;
-import lib.FontConstants;
+import kalkulatorDAS28.lib.MyGUI;
+import kalkulatorDAS28.lib.FontConstants;
 
 public class MainGUI implements MyGUI {
 
@@ -37,12 +37,12 @@ public class MainGUI implements MyGUI {
 		JPanel welcomePanel = new JPanel(new BorderLayout());
 
 		JPanel panel = new JPanel();
-		JLabel welcomeLabel = new JLabel("Kalkulator licz?cy wska?nik DAS 28");
+		JLabel welcomeLabel = new JLabel("Kalkulator liczący wskaźnik DAS 28");
 		welcomeLabel.setFont(FontConstants.MEDIUM_FONT_BOLD);
 		panel.add(welcomeLabel);
 		panel.setBorder(BorderFactory.createEmptyBorder(0, 0, 15, 10));
 
-		JButton inputDataButton = new JButton("Wprowad? dane");
+		JButton inputDataButton = new JButton("Wprowadź dane");
 		inputDataButton.setFont(FontConstants.SMALL_FONT_BOLD);
 		inputDataButton.addActionListener(new ActionListener() {
 			@Override
